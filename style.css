@@ -1,0 +1,92 @@
+body{
+    background-color:rgb(250, 250, 252);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(0, 255, 200);
+    color: white;
+    display: flex;
+}
+.color{
+    color: orange;
+}
+.icon{
+    padding-left: 5px;
+    color: orange;
+}
+
+.logo{
+    display: flex;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 600px;
+}
+.link{
+    list-style-type: none;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 1.5rem;
+    
+
+}
+a:hover{
+    color: orange;
+}
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.section1{
+    position: relative;
+    width: 50%;
+    margin-top: 50px;
+
+}
+.section2{
+    width: 50%;
+    margin-top: 50px;
+}
+img{
+    height: 500px;
+    width: 600px;
+    padding-left: 50px;
+
+}
+.sec{
+   font-size: 30px;
+   padding-left: 40px;
+   margin-bottom: 0%;
+}
+.sec2{
+    font-size: 40px;
+    padding-left: 40px;
+    color: orange;
+    margin-top:0;
+}
+
+p{
+    padding-left: 40px;
+    padding-top: 0px;
+    text-align: justify;
+    
+}
+button{
+    margin-left: 40px;
+    outline: none;
+    white-space: nowrap;
+    border: none;
+    color: white;
+    background-color: orange;
+    border-radius: 5px;
+    font-size: 20px;
+}
